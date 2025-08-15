@@ -1,12 +1,12 @@
 [submodule "deconstruct-mediapipe"]
-	path = deconstruct-mediapipe
+	path = deconstruct_mediapipe
 	url = https://github.com/Hadleigh-Schwartz/deconstruct-mediapipe.git
 [submodule "mediapipe_pytorch"]
 	path = mediapipe_pytorch
 	url = https://github.com/Hadleigh-Schwartz/mediapipe_pytorch.git
 [submodule "BlazeFace-PyTorch"]
-	path = BlazeFace-PyTorch
+	path = BlazeFace_PyTorch
 	url = https://github.com/Hadleigh-Schwartz/BlazeFace-PyTorch.git
 [submodule "facenet-pytorch"]
-	path = facenet-pytorch
+	path = facenet_pytorch
 	url = https://github.com/Hadleigh-Schwartz/facenet-pytorch.git

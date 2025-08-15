@@ -1,0 +1,15 @@
+matplotlib==3.7.5
+mediapipe==0.10.9
+numpy==1.24.4
+onnx==1.15.0
+opencv_python
+pandas==2.0.3
+Pillow>=10.2.0,<10.3.0
+Requests==2.32.4
+setuptools
+tf2onnx
+tflite
+torch
+tensorflow
+torchvision
+tqdm

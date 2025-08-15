@@ -1,4 +1,4 @@
-from mp_face_landmarker import PyTorchMediapipeFaceLandmarker
+from mp_facemesh import PyTorchMediapipeFaceLandmarker
 import cv2
 import torch
 import numpy as np
