@@ -11,7 +11,7 @@ Cobbled together from these existing repositories:
 
 and my best guess at how these components should be pieced together based on the [Model Card](https://storage.googleapis.com/mediapipe-assets/Model%20Card%20MediaPipe%20Face%20Mesh%20V2.pdf).
 
-Though not a perfect replica of Google's version, this implementation can be helpful if you need a fully differentiable, PyTorch model for face landmark and blendshape extraction.
+Though not a perfect replica of Google's version, this implementation can be helpful if you need a fully differentiable, PyTorch approximation of the pipeline.
 
 <div align="center">
     <img alt="Model output vs. real MediaPipe FaceMesh" src="assets/harry_annotated_comparison.png" alt="drawing" width="600"/>
