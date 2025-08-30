@@ -36,8 +36,8 @@ Requires Python 3. Developed and tested in Python 3.9.23 in MacOS.
 Functionality is unified in the ```PyTorchMediapipeFaceLandmarker()``` class in [```mp_facemesh.py```](mp_facemesh.py).
 The forward pass of the model takes an image and outputs the landmarks, blendshapes, and a cropped and padded face extracted from the input iamge.
 
-See a comparison of the PyTorch implementation and official implementation by running
+See a comparison of this PyTorch implementation and official implementation by running
 ```
 python test_mp_facemesh.py
 ```
-This script also demonstrates usage of the ```PyTorchMediapipeFaceLandmarker()``` class. It also provides a webcam-based demo for visualizing the model output vs. real MediaPipe output in real-time.
+This script also demonstrates usage of the ```PyTorchMediapipeFaceLandmarker()``` class. Additionally, it provides a webcam-based demo function for visualizing the model output vs. real MediaPipe output in real-time.
