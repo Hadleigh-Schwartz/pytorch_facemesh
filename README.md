@@ -11,7 +11,7 @@ Built using elements of these existing repositories:
 
 and details inferred from Google's provided [Model Card](https://storage.googleapis.com/mediapipe-assets/Model%20Card%20MediaPipe%20Face%20Mesh%20V2.pdf).
 
-Though not a perfect replica of Google's version, this implementation can be helpful if you need a fully differentiable, PyTorch approximation of the FaceMesh model and pipeline.
+Though not an <i>exact<i> replica of Google's version, this implementation can be helpful if you need a fully differentiable, PyTorch approximation of the FaceMesh model and pipeline.
 
 <div align="center">
     <img alt="Model output vs. real MediaPipe FaceMesh" src="assets/harry_annotated_comparison.png" alt="drawing" width="600"/>
