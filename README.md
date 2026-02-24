@@ -1,15 +1,23 @@
 
 # PyTorch MediaPipe FaceMesh
 
-Pure PyTorch, fully differentiable implementation of Google's MediaPipe [Face Mesh](https://github.com/google-ai-edge/mediapipe/wiki/MediaPipe-Face-Mesh) (also known as [Face Landmarker](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker)), which is currently only distributed as a tflite file (not differentiable, not PyTorch-compatible).
+Pure PyTorch implementation of Google's MediaPipe [Face Mesh](https://github.com/google-ai-edge/mediapipe/wiki/MediaPipe-Face-Mesh) (also known as [Face Landmarker](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker)), which is currently only distributed as a tflite file (not differentiable, not PyTorch-compatible). This version's key features:
 
+- 🔥 **Fully differentiable** — end-to-end gradient flow through the entire pipeline
+- 🎯 Returns both **facial landmarks** and **blendshape scores**
+- 📐 Includes a **differentiable implementation of facial landmark alignment** to a canonical, front-facing viewpoint
+
+  
 Built using elements of these existing repositories:
 - [deconstruct-mediapipe](https://github.com/nlml/deconstruct-mediapipe)
 - [mediapipe_pytorch](https://github.com/tiqq111/mediapipe_pytorch)
 - [BlazeFace_PyTorch](https://github.com/hollance/BlazeFace-PyTorch)
 - [facenet-pytorch](https://github.com/timesler/facenet-pytorch)
 
-and details inferred from Google's provided [Model Card](https://storage.googleapis.com/mediapipe-assets/Model%20Card%20MediaPipe%20Face%20Mesh%20V2.pdf). The version in this repo returns **both facial landmarks and blendshape scores**, and includes a **differentiable implementation of facial landmark alignment to a canonical, front-facing viewpoint**.
+and details inferred from Google's provided [Model Card](https://storage.googleapis.com/mediapipe-assets/Model%20Card%20MediaPipe%20Face%20Mesh%20V2.pdf). 
+
+
+
 
 Though not an <i>exact</i> replica of Google's version, this implementation can be helpful if you need a fully differentiable, PyTorch approximation of the FaceMesh model and pipeline. Here is a comparison of the two version's landmark and blednshape score outputs:
 
