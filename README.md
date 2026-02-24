@@ -9,7 +9,7 @@ Built using elements of these existing repositories:
 - [BlazeFace_PyTorch](https://github.com/hollance/BlazeFace-PyTorch)
 - [facenet-pytorch](https://github.com/timesler/facenet-pytorch)
 
-and details inferred from Google's provided [Model Card](https://storage.googleapis.com/mediapipe-assets/Model%20Card%20MediaPipe%20Face%20Mesh%20V2.pdf). The version in this repo returns **both facial landmarks and blendshape scores**, and includes a **differentaible implementation of facial landmark alignment to a canonical, front-facing viewpoint**.
+and details inferred from Google's provided [Model Card](https://storage.googleapis.com/mediapipe-assets/Model%20Card%20MediaPipe%20Face%20Mesh%20V2.pdf). The version in this repo returns **both facial landmarks and blendshape scores**, and includes a **differentiable implementation of facial landmark alignment to a canonical, front-facing viewpoint**.
 
 Though not an <i>exact</i> replica of Google's version, this implementation can be helpful if you need a fully differentiable, PyTorch approximation of the FaceMesh model and pipeline. Here is a comparison of the two version's landmark and blednshape score outputs:
 
