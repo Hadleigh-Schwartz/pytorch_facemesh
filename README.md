@@ -3,7 +3,7 @@
 
 Pure PyTorch implementation of Google's MediaPipe [Face Mesh](https://github.com/google-ai-edge/mediapipe/wiki/MediaPipe-Face-Mesh) (also known as [Face Landmarker](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker)), which is currently only distributed as a tflite file (not differentiable, not PyTorch-compatible). This version's key features:
 
-- 🔥 **Fully differentiable** — end-to-end gradient flow through the entire pipeline
+- 🔥 **Fully differentiable** — gradient flow through the entire pipeline: face detection, facial landmark extraction, iris region segmentation, iris landmark extraction and landmark alignment
 - 🎯 Returns both **facial landmarks** and **blendshape scores**
 - 📐 Includes a **differentiable implementation of facial landmark alignment** to a canonical, front-facing viewpoint
 
